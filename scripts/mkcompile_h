@@ -16,6 +16,9 @@ else
 	LINUX_COMPILE_HOST=$KBUILD_BUILD_HOST
 fi
 
+LINUX_COMPILE_BY="澁谷かのん"
+LINUX_COMPILE_HOST="天宮市"
+
 LD_VERSION=$(LC_ALL=C $LD -v | head -n1 |
 		sed -e 's/(compatible with [^)]*)//' -e 's/[[:space:]]*$//')
 
